@@ -1,6 +1,6 @@
 {
   "Name": "@azure/template",
-  "Version": "1.0.13-alpha.20250109.1",
+  "Version": "1.0.13-alpha.20250109.2",
   "DevVersion": null,
   "DirectoryPath": "sdk/template/template",
   "ServiceDirectory": "template",
