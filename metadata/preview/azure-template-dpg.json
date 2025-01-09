@@ -1,6 +1,6 @@
 {
   "Name": "@azure/template-dpg",
-  "Version": "1.0.0-alpha.20250108.2",
+  "Version": "1.0.0-alpha.20250109.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/template/template-dpg",
   "ServiceDirectory": "template",
