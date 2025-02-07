@@ -1,12 +1,12 @@
 ---
 title: Azure Maps Common client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/maps-common, maps
-ms.date: 11/08/2022
+ms.date: 02/07/2025
 ms.topic: reference
 ms.devlang: javascript
 ms.service: maps
 ---
-# Azure Maps Common client library for JavaScript - version 1.0.0-beta.2 
+# Azure Maps Common client library for JavaScript - version 1.0.0-alpha.20250206.2 
 /TypeScript
 
 An internal library for the various Azure Maps client libraries.
@@ -42,11 +42,9 @@ If you run into issues while using this library, directly or indirectly, please 
 
 ## Contributing
 
-If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/maps-common_1.0.0-beta.2/CONTRIBUTING.md) to learn more about how to build and test the code.
+If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/maps-common_1.0.0-alpha.20250206.2/CONTRIBUTING.md) to learn more about how to build and test the code.
 
 ## Related projects
 
 - [Microsoft Azure SDK for JavaScript](https://github.com/Azure/azure-sdk-for-js)
-
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fmaps%2Fmaps-common%2FREADME.png)
 
