@@ -7,6 +7,24 @@ fullName: AppConfigurationClientOptions
 remarks: ''
 isDeprecated: false
 type: interface
+properties:
+  - name: apiVersion
+    uid: '@azure/app-configuration.AppConfigurationClientOptions.apiVersion'
+    package: '@azure/app-configuration'
+    summary: >-
+      The API version to use when interacting with the service. The default
+      value is `2023-11-01`.
+
+      Note that overriding this default value may result in unsupported
+      behavior.
+    fullName: apiVersion
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'apiVersion?: string'
+      return:
+        description: ''
+        type: string
 inheritedProperties:
   - name: additionalPolicies
     uid: '@azure/app-configuration.AppConfigurationClientOptions.additionalPolicies'
@@ -21,6 +39,19 @@ inheritedProperties:
         description: ''
         type: <xref uid="@azure/core-client.AdditionalPolicyConfig" />[]
     inheritanceDescription: <b>Inherited From</b> CommonClientOptions.additionalPolicies
+  - name: agent
+    uid: '@azure/app-configuration.AppConfigurationClientOptions.agent'
+    package: '@azure/app-configuration'
+    summary: Options for configuring Agent instance for outgoing requests
+    fullName: agent
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'agent?: Agent'
+      return:
+        description: ''
+        type: <xref uid="@azure/core-rest-pipeline.Agent" />
+    inheritanceDescription: <b>Inherited From</b> CommonClientOptions.agent
   - name: allowInsecureConnection
     uid: >-
       @azure/app-configuration.AppConfigurationClientOptions.allowInsecureConnection
