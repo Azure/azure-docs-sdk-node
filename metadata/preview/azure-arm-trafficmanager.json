@@ -1,6 +1,6 @@
 {
   "Name": "@azure/arm-trafficmanager",
-  "Version": "6.1.1-alpha.20250206.1",
+  "Version": "6.1.1-alpha.20250207.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/trafficmanager/arm-trafficmanager",
   "ServiceDirectory": "trafficmanager",
