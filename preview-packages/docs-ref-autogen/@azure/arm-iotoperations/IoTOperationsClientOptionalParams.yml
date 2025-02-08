@@ -11,7 +11,10 @@ properties:
   - name: apiVersion
     uid: '@azure/arm-iotoperations.IoTOperationsClientOptionalParams.apiVersion'
     package: '@azure/arm-iotoperations'
-    summary: The API version to use for this operation.
+    summary: >-
+      Known values of
+      [KnownVersions](xref:@azure/arm-iotoperations.KnownVersions) that the
+      service accepts.
     fullName: apiVersion
     remarks: ''
     isDeprecated: false
@@ -35,6 +38,19 @@ inheritedProperties:
         description: ''
         type: <xref uid="@azure-rest/core-client.AdditionalPolicyConfig" />[]
     inheritanceDescription: <b>Inherited From</b> ClientOptions.additionalPolicies
+  - name: agent
+    uid: '@azure/arm-iotoperations.IoTOperationsClientOptionalParams.agent'
+    package: '@azure/arm-iotoperations'
+    summary: Options for configuring Agent instance for outgoing requests
+    fullName: agent
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'agent?: Agent'
+      return:
+        description: ''
+        type: <xref uid="@azure/core-rest-pipeline.Agent" />
+    inheritanceDescription: <b>Inherited From</b> ClientOptions.agent
   - name: allowInsecureConnection
     uid: >-
       @azure/arm-iotoperations.IoTOperationsClientOptionalParams.allowInsecureConnection

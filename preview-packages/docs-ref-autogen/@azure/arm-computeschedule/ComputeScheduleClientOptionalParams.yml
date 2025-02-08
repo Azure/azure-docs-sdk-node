@@ -11,7 +11,10 @@ properties:
   - name: apiVersion
     uid: '@azure/arm-computeschedule.ComputeScheduleClientOptionalParams.apiVersion'
     package: '@azure/arm-computeschedule'
-    summary: The API version to use for this operation.
+    summary: >-
+      Known values of
+      [KnownVersions](xref:@azure/arm-computeschedule.KnownVersions) that the
+      service accepts.
     fullName: apiVersion
     remarks: ''
     isDeprecated: false
@@ -35,6 +38,19 @@ inheritedProperties:
         description: ''
         type: <xref uid="@azure-rest/core-client.AdditionalPolicyConfig" />[]
     inheritanceDescription: <b>Inherited From</b> ClientOptions.additionalPolicies
+  - name: agent
+    uid: '@azure/arm-computeschedule.ComputeScheduleClientOptionalParams.agent'
+    package: '@azure/arm-computeschedule'
+    summary: Options for configuring Agent instance for outgoing requests
+    fullName: agent
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'agent?: Agent'
+      return:
+        description: ''
+        type: <xref uid="@azure/core-rest-pipeline.Agent" />
+    inheritanceDescription: <b>Inherited From</b> ClientOptions.agent
   - name: allowInsecureConnection
     uid: >-
       @azure/arm-computeschedule.ComputeScheduleClientOptionalParams.allowInsecureConnection

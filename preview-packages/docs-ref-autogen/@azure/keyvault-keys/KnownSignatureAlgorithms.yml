@@ -2,7 +2,9 @@
 name: KnownSignatureAlgorithms
 uid: '@azure/keyvault-keys.KnownSignatureAlgorithms'
 package: '@azure/keyvault-keys'
-summary: Known values of <xref:JsonWebKeySignatureAlgorithm> that the service accepts.
+summary: >-
+  The signing/verification algorithm identifier. For more information on
+  possible algorithm types, see JsonWebKeySignatureAlgorithm.
 fullName: KnownSignatureAlgorithms
 remarks: ''
 isDeprecated: false
