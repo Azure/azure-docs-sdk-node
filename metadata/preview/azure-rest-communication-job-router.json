@@ -1,6 +1,6 @@
 {
   "Name": "@azure-rest/communication-job-router",
-  "Version": "1.1.0-beta.2",
+  "Version": "1.1.0-alpha.20250212.1",
   "DevVersion": null,
   "DirectoryPath": "sdk/communication/communication-job-router-rest",
   "ServiceDirectory": "communication",
@@ -10,12 +10,12 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-rest-communication-job-router",
-  "ReleaseStatus": "2025-02-10",
+  "ReleaseStatus": null,
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-rest-communication-job-router",
-    "safeName": "azurerestcommunicationjobrouter"
+    "safeName": "azurerestcommunicationjobrouter",
+    "name": "azure-rest-communication-job-router"
   },
   "CIMatrixConfigs": []
 }
