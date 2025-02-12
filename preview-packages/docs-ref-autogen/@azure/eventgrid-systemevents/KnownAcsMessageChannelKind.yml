@@ -1,0 +1,16 @@
+### YamlMime:TSEnum
+name: KnownAcsMessageChannelKind
+uid: '@azure/eventgrid-systemevents.KnownAcsMessageChannelKind'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [AcsMessageChannelKind](xref:@azure/eventgrid-systemevents.AcsMessageChannelKind)
+  that the service accepts.
+fullName: KnownAcsMessageChannelKind
+remarks: ''
+isDeprecated: false
+fields:
+  - name: whatsapp
+    uid: '@azure/eventgrid-systemevents.KnownAcsMessageChannelKind.whatsapp'
+    package: '@azure/eventgrid-systemevents'
+    summary: whatsapp

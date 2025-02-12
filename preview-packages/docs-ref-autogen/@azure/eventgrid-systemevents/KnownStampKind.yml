@@ -1,0 +1,23 @@
+### YamlMime:TSEnum
+name: KnownStampKind
+uid: '@azure/eventgrid-systemevents.KnownStampKind'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of [StampKind](xref:@azure/eventgrid-systemevents.StampKind) that
+  the service accepts.
+fullName: KnownStampKind
+remarks: ''
+isDeprecated: false
+fields:
+  - name: AseV1
+    uid: '@azure/eventgrid-systemevents.KnownStampKind.AseV1'
+    package: '@azure/eventgrid-systemevents'
+    summary: AseV1
+  - name: AseV2
+    uid: '@azure/eventgrid-systemevents.KnownStampKind.AseV2'
+    package: '@azure/eventgrid-systemevents'
+    summary: AseV2
+  - name: Public
+    uid: '@azure/eventgrid-systemevents.KnownStampKind.Public'
+    package: '@azure/eventgrid-systemevents'
+    summary: Public

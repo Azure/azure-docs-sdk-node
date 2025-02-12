@@ -1,0 +1,24 @@
+### YamlMime:TSEnum
+name: KnownDataBoxStageName
+uid: '@azure/eventgrid-systemevents.KnownDataBoxStageName'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [DataBoxStageName](xref:@azure/eventgrid-systemevents.DataBoxStageName) that
+  the service accepts.
+fullName: KnownDataBoxStageName
+remarks: ''
+isDeprecated: false
+fields:
+  - name: CopyCompleted
+    uid: '@azure/eventgrid-systemevents.KnownDataBoxStageName.CopyCompleted'
+    package: '@azure/eventgrid-systemevents'
+    summary: CopyCompleted
+  - name: CopyStarted
+    uid: '@azure/eventgrid-systemevents.KnownDataBoxStageName.CopyStarted'
+    package: '@azure/eventgrid-systemevents'
+    summary: CopyStarted
+  - name: OrderCompleted
+    uid: '@azure/eventgrid-systemevents.KnownDataBoxStageName.OrderCompleted'
+    package: '@azure/eventgrid-systemevents'
+    summary: OrderCompleted

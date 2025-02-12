@@ -1,0 +1,67 @@
+### YamlMime:TSEnum
+name: KnownEventGridMqttClientDisconnectionReason
+uid: '@azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [EventGridMqttClientDisconnectionReason](xref:@azure/eventgrid-systemevents.EventGridMqttClientDisconnectionReason)
+  that the service accepts.
+fullName: KnownEventGridMqttClientDisconnectionReason
+remarks: ''
+isDeprecated: false
+fields:
+  - name: ClientAuthenticationError
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.ClientAuthenticationError
+    package: '@azure/eventgrid-systemevents'
+    summary: ClientAuthenticationError
+  - name: ClientAuthorizationError
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.ClientAuthorizationError
+    package: '@azure/eventgrid-systemevents'
+    summary: ClientAuthorizationError
+  - name: ClientError
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.ClientError
+    package: '@azure/eventgrid-systemevents'
+    summary: ClientError
+  - name: ClientInitiatedDisconnect
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.ClientInitiatedDisconnect
+    package: '@azure/eventgrid-systemevents'
+    summary: ClientInitiatedDisconnect
+  - name: ConnectionLost
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.ConnectionLost
+    package: '@azure/eventgrid-systemevents'
+    summary: ConnectionLost
+  - name: IpForbidden
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.IpForbidden
+    package: '@azure/eventgrid-systemevents'
+    summary: IpForbidden
+  - name: QuotaExceeded
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.QuotaExceeded
+    package: '@azure/eventgrid-systemevents'
+    summary: QuotaExceeded
+  - name: ServerError
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.ServerError
+    package: '@azure/eventgrid-systemevents'
+    summary: ServerError
+  - name: ServerInitiatedDisconnect
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.ServerInitiatedDisconnect
+    package: '@azure/eventgrid-systemevents'
+    summary: ServerInitiatedDisconnect
+  - name: SessionOverflow
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.SessionOverflow
+    package: '@azure/eventgrid-systemevents'
+    summary: SessionOverflow
+  - name: SessionTakenOver
+    uid: >-
+      @azure/eventgrid-systemevents.KnownEventGridMqttClientDisconnectionReason.SessionTakenOver
+    package: '@azure/eventgrid-systemevents'
+    summary: SessionTakenOver

@@ -1,0 +1,35 @@
+### YamlMime:TSEnum
+name: KnownAppAction
+uid: '@azure/eventgrid-systemevents.KnownAppAction'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of [AppAction](xref:@azure/eventgrid-systemevents.AppAction) that
+  the service accepts.
+fullName: KnownAppAction
+remarks: ''
+isDeprecated: false
+fields:
+  - name: ChangedAppSettings
+    uid: '@azure/eventgrid-systemevents.KnownAppAction.ChangedAppSettings'
+    package: '@azure/eventgrid-systemevents'
+    summary: ChangedAppSettings
+  - name: Completed
+    uid: '@azure/eventgrid-systemevents.KnownAppAction.Completed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Completed
+  - name: Failed
+    uid: '@azure/eventgrid-systemevents.KnownAppAction.Failed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Failed
+  - name: Restarted
+    uid: '@azure/eventgrid-systemevents.KnownAppAction.Restarted'
+    package: '@azure/eventgrid-systemevents'
+    summary: Restarted
+  - name: Started
+    uid: '@azure/eventgrid-systemevents.KnownAppAction.Started'
+    package: '@azure/eventgrid-systemevents'
+    summary: Started
+  - name: Stopped
+    uid: '@azure/eventgrid-systemevents.KnownAppAction.Stopped'
+    package: '@azure/eventgrid-systemevents'
+    summary: Stopped

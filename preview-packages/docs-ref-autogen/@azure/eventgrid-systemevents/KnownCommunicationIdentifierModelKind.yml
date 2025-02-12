@@ -1,0 +1,32 @@
+### YamlMime:TSEnum
+name: KnownCommunicationIdentifierModelKind
+uid: '@azure/eventgrid-systemevents.KnownCommunicationIdentifierModelKind'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [CommunicationIdentifierModelKind](xref:@azure/eventgrid-systemevents.CommunicationIdentifierModelKind)
+  that the service accepts.
+fullName: KnownCommunicationIdentifierModelKind
+remarks: ''
+isDeprecated: false
+fields:
+  - name: communicationUser
+    uid: >-
+      @azure/eventgrid-systemevents.KnownCommunicationIdentifierModelKind.communicationUser
+    package: '@azure/eventgrid-systemevents'
+    summary: communicationUser
+  - name: microsoftTeamsUser
+    uid: >-
+      @azure/eventgrid-systemevents.KnownCommunicationIdentifierModelKind.microsoftTeamsUser
+    package: '@azure/eventgrid-systemevents'
+    summary: microsoftTeamsUser
+  - name: phoneNumber
+    uid: >-
+      @azure/eventgrid-systemevents.KnownCommunicationIdentifierModelKind.phoneNumber
+    package: '@azure/eventgrid-systemevents'
+    summary: phoneNumber
+  - name: unknown
+    uid: >-
+      @azure/eventgrid-systemevents.KnownCommunicationIdentifierModelKind.unknown
+    package: '@azure/eventgrid-systemevents'
+    summary: unknown

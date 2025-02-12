@@ -1,0 +1,24 @@
+### YamlMime:TSEnum
+name: KnownAcsInteractiveReplyKind
+uid: '@azure/eventgrid-systemevents.KnownAcsInteractiveReplyKind'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [AcsInteractiveReplyKind](xref:@azure/eventgrid-systemevents.AcsInteractiveReplyKind)
+  that the service accepts.
+fullName: KnownAcsInteractiveReplyKind
+remarks: ''
+isDeprecated: false
+fields:
+  - name: buttonReply
+    uid: '@azure/eventgrid-systemevents.KnownAcsInteractiveReplyKind.buttonReply'
+    package: '@azure/eventgrid-systemevents'
+    summary: buttonReply
+  - name: listReply
+    uid: '@azure/eventgrid-systemevents.KnownAcsInteractiveReplyKind.listReply'
+    package: '@azure/eventgrid-systemevents'
+    summary: listReply
+  - name: unknown
+    uid: '@azure/eventgrid-systemevents.KnownAcsInteractiveReplyKind.unknown'
+    package: '@azure/eventgrid-systemevents'
+    summary: unknown

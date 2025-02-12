@@ -1,0 +1,23 @@
+### YamlMime:TSEnum
+name: KnownAsyncStatus
+uid: '@azure/eventgrid-systemevents.KnownAsyncStatus'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of [AsyncStatus](xref:@azure/eventgrid-systemevents.AsyncStatus)
+  that the service accepts.
+fullName: KnownAsyncStatus
+remarks: ''
+isDeprecated: false
+fields:
+  - name: Completed
+    uid: '@azure/eventgrid-systemevents.KnownAsyncStatus.Completed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Completed
+  - name: Failed
+    uid: '@azure/eventgrid-systemevents.KnownAsyncStatus.Failed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Failed
+  - name: Started
+    uid: '@azure/eventgrid-systemevents.KnownAsyncStatus.Started'
+    package: '@azure/eventgrid-systemevents'
+    summary: Started

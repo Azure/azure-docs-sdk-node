@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: KnownStorageTaskCompletedStatus
+uid: '@azure/eventgrid-systemevents.KnownStorageTaskCompletedStatus'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [StorageTaskCompletedStatus](xref:@azure/eventgrid-systemevents.StorageTaskCompletedStatus)
+  that the service accepts.
+fullName: KnownStorageTaskCompletedStatus
+remarks: ''
+isDeprecated: false
+fields:
+  - name: Failed
+    uid: '@azure/eventgrid-systemevents.KnownStorageTaskCompletedStatus.Failed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Failed
+  - name: Succeeded
+    uid: '@azure/eventgrid-systemevents.KnownStorageTaskCompletedStatus.Succeeded'
+    package: '@azure/eventgrid-systemevents'
+    summary: Succeeded
