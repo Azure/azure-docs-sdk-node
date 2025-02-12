@@ -1,6 +1,6 @@
 {
   "Name": "@azure-rest/arm-appservice",
-  "Version": "1.0.0-beta.2",
+  "Version": "1.0.0-alpha.20250211.2",
   "DevVersion": null,
   "DirectoryPath": "sdk/appservice/arm-appservice-rest",
   "ServiceDirectory": "appservice",
@@ -10,7 +10,7 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-rest-arm-appservice",
-  "ReleaseStatus": "2025-02-10",
+  "ReleaseStatus": null,
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
