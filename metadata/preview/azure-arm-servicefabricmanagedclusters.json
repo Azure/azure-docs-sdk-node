@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-arm-servicefabricmanagedclusters",
-    "safeName": "azurearmservicefabricmanagedclusters"
+    "safeName": "azurearmservicefabricmanagedclusters",
+    "name": "azure-arm-servicefabricmanagedclusters"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }
