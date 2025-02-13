@@ -17,5 +17,8 @@
     "name": "azure-arm-cosmosdb",
     "safeName": "azurearmcosmosdb"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
   "CIMatrixConfigs": []
 }
