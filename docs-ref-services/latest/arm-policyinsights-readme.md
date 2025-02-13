@@ -1,7 +1,7 @@
 ---
 title: Azure PolicyInsights client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/arm-policyinsights, policyinsights
-ms.date: 01/13/2025
+ms.date: 02/13/2025
 ms.topic: reference
 ms.devlang: javascript
 ms.service: policyinsights
@@ -107,7 +107,7 @@ If you'd like to contribute to this library, please read the [contributing guide
 
 - [Microsoft Azure SDK for JavaScript](https://github.com/Azure/azure-sdk-for-js)
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fpolicyinsights%2Farm-policyinsights%2FREADME.png)
+
 
 [azure_cli]: https://learn.microsoft.com/cli/azure
 [azure_sub]: https://azure.microsoft.com/free/

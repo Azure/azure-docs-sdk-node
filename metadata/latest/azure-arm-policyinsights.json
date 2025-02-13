@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azurearmpolicyinsights",
-    "name": "azure-arm-policyinsights"
+    "name": "azure-arm-policyinsights",
+    "safeName": "azurearmpolicyinsights"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }
