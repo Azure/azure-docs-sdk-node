@@ -1,7 +1,7 @@
 ---
 title: 
 keywords: Azure, javascript, SDK, API, @azure-rest/agrifood-farming, agrifood
-ms.date: 02/12/2025
+ms.date: 02/13/2025
 ms.topic: reference
 ms.devlang: javascript
 ms.service: agrifood

@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azurerestagrifoodfarming",
-    "name": "azure-rest-agrifood-farming"
+    "name": "azure-rest-agrifood-farming",
+    "safeName": "azurerestagrifoodfarming"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }
