@@ -10,5 +10,14 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-arm-connectedvmware",
-  "ReleaseStatus": "2023-10-24"
+  "ReleaseStatus": "2023-10-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-arm-connectedvmware",
+    "safeName": "azurearmconnectedvmware"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  }
 }

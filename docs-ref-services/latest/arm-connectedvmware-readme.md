@@ -1,7 +1,7 @@
 ---
 title: Azure Arc VMware Management client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/arm-connectedvmware, connectedvmware
-ms.date: 10/26/2023
+ms.date: 02/13/2025
 ms.topic: reference
 ms.devlang: javascript
 ms.service: connectedvmware
@@ -15,7 +15,7 @@ Self service experience for VMware.
 
 [Source code](https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-connectedvmware_1.0.0/sdk/connectedvmware/arm-connectedvmware) |
 [Package (NPM)](https://www.npmjs.com/package/@azure/arm-connectedvmware) |
-[API reference documentation](/javascript/api/@azure/arm-connectedvmware) |
+[API reference documentation](https://learn.microsoft.com/javascript/api/@azure/arm-connectedvmware) |
 [Samples](https://github.com/Azure-Samples/azure-samples-js-management)
 
 ## Getting started
@@ -55,9 +55,11 @@ npm install @azure/identity
 You will also need to **register a new AAD application and grant access to Azure Arc VMware Management** by assigning the suitable role to your service principal (note: roles such as `"Owner"` will not grant the necessary permissions).
 Set the values of the client ID, tenant ID, and client secret of the AAD application as environment variables: `AZURE_CLIENT_ID`, `AZURE_TENANT_ID`, `AZURE_CLIENT_SECRET`.
 
-For more information about how to create an Azure AD Application check out [this guide](/azure/active-directory/develop/howto-create-service-principal-portal).
+For more information about how to create an Azure AD Application check out [this guide](https://learn.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
 
-```javascript
+Using Node.js and Node-like environments, you can use the `DefaultAzureCredential` class to authenticate the client.
+
+```ts snippet:ReadmeSampleCreateClient_Node
 const { AzureArcVMwareManagementServiceAPI } = require("@azure/arm-connectedvmware");
 const { DefaultAzureCredential } = require("@azure/identity");
 // For client-side applications running in the browser, use InteractiveBrowserCredential instead of DefaultAzureCredential. See https://aka.ms/azsdk/js/identity/examples for more details.
@@ -73,8 +75,14 @@ const client = new AzureArcVMwareManagementServiceAPI(new DefaultAzureCredential
 // const client = new AzureArcVMwareManagementServiceAPI(credential, subscriptionId);
 ```
 
+For browser environments, use the `InteractiveBrowserCredential` from the `@azure/identity` package to authenticate.
+
+```ts snippet:ReadmeSampleCreateClient_Browser
+
+```
 
 ### JavaScript Bundle
+
 To use this client library in the browser, first you need to use a bundler. For details on how to do this, please refer to our [bundling documentation](https://aka.ms/AzureSDKBundling).
 
 ## Key concepts
@@ -89,7 +97,7 @@ To use this client library in the browser, first you need to use a bundler. For 
 
 Enabling logging may help uncover useful information about failures. In order to see a log of HTTP requests and responses, set the `AZURE_LOG_LEVEL` environment variable to `info`. Alternatively, logging can be enabled at runtime by calling `setLogLevel` in the `@azure/logger`:
 
-```javascript
+```ts snippet:SetLogLevel
 const { setLogLevel } = require("@azure/logger");
 setLogLevel("info");
 ```
@@ -108,9 +116,9 @@ If you'd like to contribute to this library, please read the [contributing guide
 
 - [Microsoft Azure SDK for JavaScript](https://github.com/Azure/azure-sdk-for-js)
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fconnectedvmware%2Farm-connectedvmware%2FREADME.png)
 
-[azure_cli]: /cli/azure
+
+[azure_cli]: https://learn.microsoft.com/cli/azure
 [azure_sub]: https://azure.microsoft.com/free/
 [azure_sub]: https://azure.microsoft.com/free/
 [azure_portal]: https://portal.azure.com
