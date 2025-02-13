@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-rest-batch",
-    "safeName": "azurerestbatch"
+    "safeName": "azurerestbatch",
+    "name": "azure-rest-batch"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": [],
   "DependentPackages": null
