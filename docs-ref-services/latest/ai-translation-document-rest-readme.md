@@ -1,7 +1,7 @@
 ---
 title: 
 keywords: Azure, javascript, SDK, API, @azure-rest/ai-translation-document, translation
-ms.date: 11/13/2024
+ms.date: 02/13/2025
 ms.topic: reference
 ms.devlang: javascript
 ms.service: translation

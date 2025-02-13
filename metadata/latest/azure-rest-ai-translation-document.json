@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-rest-ai-translation-document",
-    "safeName": "azurerestaitranslationdocument"
+    "safeName": "azurerestaitranslationdocument",
+    "name": "azure-rest-ai-translation-document"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }
