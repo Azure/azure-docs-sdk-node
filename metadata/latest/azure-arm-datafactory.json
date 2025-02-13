@@ -17,6 +17,9 @@
     "safeName": "azurearmdatafactory",
     "name": "azure-arm-datafactory"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
   "CIMatrixConfigs": [],
   "DependentPackages": null
 }
