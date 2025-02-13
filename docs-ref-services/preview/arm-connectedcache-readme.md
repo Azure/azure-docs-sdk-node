@@ -1,7 +1,7 @@
 ---
 title: Azure ConnectedCache client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/arm-connectedcache, connectedcache
-ms.date: 11/28/2024
+ms.date: 02/13/2025
 ms.topic: reference
 ms.devlang: javascript
 ms.service: connectedcache
@@ -16,7 +16,7 @@ Microsoft Connected Cache Rest Api version 2023-05-01-preview
 Key links:
 
 - [Package (NPM)](https://www.npmjs.com/package/@azure/arm-connectedcache)
-- [API reference documentation](/javascript/api/@azure/arm-connectedcache?view=azure-node-preview)
+- [API reference documentation](https://learn.microsoft.com/javascript/api/@azure/arm-connectedcache?view=azure-node-preview)
 
 ## Getting started
 
@@ -55,26 +55,34 @@ npm install @azure/identity
 You will also need to **register a new AAD application and grant access to Azure ConnectedCache** by assigning the suitable role to your service principal (note: roles such as `"Owner"` will not grant the necessary permissions).
 Set the values of the client ID, tenant ID, and client secret of the AAD application as environment variables: `AZURE_CLIENT_ID`, `AZURE_TENANT_ID`, `AZURE_CLIENT_SECRET`.
 
-For more information about how to create an Azure AD Application check out [this guide](/azure/active-directory/develop/howto-create-service-principal-portal).
+For more information about how to create an Azure AD Application check out [this guide](https://learn.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
 
-```javascript
-const { ConnectedCacheClient } = require("@azure/arm-connectedcache");
-const { DefaultAzureCredential } = require("@azure/identity");
-// For client-side applications running in the browser, use InteractiveBrowserCredential instead of DefaultAzureCredential. See https://aka.ms/azsdk/js/identity/examples for more details.
+Using Node.js and Node-like environments, you can use the `DefaultAzureCredential` class to authenticate the client.
+
+```ts snippet:ReadmeSampleCreateClient_Node
+import { ConnectedCacheClient } from "@azure/arm-connectedcache";
+import { DefaultAzureCredential } from "@azure/identity";
 
 const subscriptionId = "00000000-0000-0000-0000-000000000000";
 const client = new ConnectedCacheClient(new DefaultAzureCredential(), subscriptionId);
-
-// For client-side applications running in the browser, use this code instead:
-// const credential = new InteractiveBrowserCredential({
-//   tenantId: "<YOUR_TENANT_ID>",
-//   clientId: "<YOUR_CLIENT_ID>"
-// });
-// const client = new ConnectedCacheClient(credential, subscriptionId);
 ```
 
+For browser environments, use the `InteractiveBrowserCredential` from the `@azure/identity` package to authenticate.
+
+```ts snippet:ReadmeSampleCreateClient_Browser
+import { InteractiveBrowserCredential } from "@azure/identity";
+import { ConnectedCacheClient } from "@azure/arm-connectedcache";
+
+const subscriptionId = "00000000-0000-0000-0000-000000000000";
+const credential = new InteractiveBrowserCredential({
+  tenantId: "<YOUR_TENANT_ID>",
+  clientId: "<YOUR_CLIENT_ID>",
+});
+const client = new ConnectedCacheClient(credential, subscriptionId);
+```
 
 ### JavaScript Bundle
+
 To use this client library in the browser, first you need to use a bundler. For details on how to do this, please refer to our [bundling documentation](https://aka.ms/AzureSDKBundling).
 
 ## Key concepts
@@ -89,13 +97,13 @@ To use this client library in the browser, first you need to use a bundler. For 
 
 Enabling logging may help uncover useful information about failures. In order to see a log of HTTP requests and responses, set the `AZURE_LOG_LEVEL` environment variable to `info`. Alternatively, logging can be enabled at runtime by calling `setLogLevel` in the `@azure/logger`:
 
-```javascript
-const { setLogLevel } = require("@azure/logger");
+```ts snippet:SetLogLevel
+import { setLogLevel } from "@azure/logger";
+
 setLogLevel("info");
 ```
 
 For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-connectedcache_1.0.0-beta.1/sdk/core/logger).
-
 
 ## Contributing
 

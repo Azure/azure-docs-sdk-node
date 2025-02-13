@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-arm-connectedcache",
-    "safeName": "azurearmconnectedcache"
+    "safeName": "azurearmconnectedcache",
+    "name": "azure-arm-connectedcache"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }
