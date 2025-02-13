@@ -10,5 +10,14 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-rest-health-deidentification",
-  "ReleaseStatus": "2024-08-15"
+  "ReleaseStatus": "2024-08-15",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-rest-health-deidentification",
+    "safeName": "azureresthealthdeidentification"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  }
 }
