@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azurerestaivisionface",
-    "name": "azure-rest-ai-vision-face"
+    "name": "azure-rest-ai-vision-face",
+    "safeName": "azurerestaivisionface"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }

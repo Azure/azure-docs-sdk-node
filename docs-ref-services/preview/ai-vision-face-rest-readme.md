@@ -1,7 +1,7 @@
 ---
 title: Azure AI Face client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure-rest/ai-vision-face, azure-ai-face
-ms.date: 02/11/2025
+ms.date: 02/13/2025
 ms.topic: reference
 ms.devlang: javascript
 ms.service: azure-ai-face
