@@ -10,5 +10,14 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-arm-managedapplications",
-  "ReleaseStatus": "2023-09-06"
+  "ReleaseStatus": "2023-09-06",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-arm-managedapplications",
+    "safeName": "azurearmmanagedapplications"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  }
 }
