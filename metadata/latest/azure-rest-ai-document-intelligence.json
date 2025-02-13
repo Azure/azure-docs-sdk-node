@@ -17,5 +17,8 @@
     "safeName": "azurerestaidocumentintelligence",
     "name": "azure-rest-ai-document-intelligence"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
   "CIMatrixConfigs": []
 }
