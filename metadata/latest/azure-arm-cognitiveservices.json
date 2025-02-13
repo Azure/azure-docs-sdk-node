@@ -17,5 +17,8 @@
     "safeName": "azurearmcognitiveservices",
     "name": "azure-arm-cognitiveservices"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
   "CIMatrixConfigs": []
 }
