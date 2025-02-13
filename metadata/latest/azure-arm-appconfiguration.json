@@ -17,5 +17,8 @@
     "name": "azure-arm-appconfiguration",
     "safeName": "azurearmappconfiguration"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
   "CIMatrixConfigs": []
 }
