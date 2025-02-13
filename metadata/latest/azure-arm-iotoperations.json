@@ -17,5 +17,8 @@
     "safeName": "azurearmiotoperations",
     "name": "azure-arm-iotoperations"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
   "CIMatrixConfigs": []
 }
