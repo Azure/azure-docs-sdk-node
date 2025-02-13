@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "name": "azure-arm-postgresql-flexible",
-    "safeName": "azurearmpostgresqlflexible"
+    "safeName": "azurearmpostgresqlflexible",
+    "name": "azure-arm-postgresql-flexible"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }
