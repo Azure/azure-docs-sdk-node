@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azurerestloadtesting",
-    "name": "azure-rest-load-testing"
+    "name": "azure-rest-load-testing",
+    "safeName": "azurerestloadtesting"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }
