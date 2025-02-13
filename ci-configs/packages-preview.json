@@ -130,6 +130,9 @@
       "name": "@azure/arm-agrifood@1.0.0-beta.5"
     },
     {
+      "name": "@azure/arm-analysisservices@4.1.4-alpha.20250212.1"
+    },
+    {
       "name": "@azure/arm-apicenter@1.0.0-beta.1"
     },
     {
@@ -184,7 +187,7 @@
       "name": "@azure/arm-computeschedule@1.0.0-beta.2"
     },
     {
-      "name": "@azure/arm-confidentialledger@1.3.0-beta.2"
+      "name": "@azure/arm-confidentialledger@1.3.0-alpha.20250212.1"
     },
     {
       "name": "@azure/arm-confluent@3.0.0-beta.3"
@@ -199,7 +202,7 @@
       "name": "@azure/arm-containerinstance@9.2.0-beta.1"
     },
     {
-      "name": "@azure/arm-containerorchestratorruntime@1.0.0-beta.1"
+      "name": "@azure/arm-containerorchestratorruntime@1.0.0-alpha.20250212.1"
     },
     {
       "name": "@azure/arm-containerregistry@11.0.0-beta.3"
@@ -238,6 +241,9 @@
       "name": "@azure/arm-deploymentmanager@4.0.0-beta.4"
     },
     {
+      "name": "@azure/arm-desktopvirtualization@1.2.1-alpha.20250212.1"
+    },
+    {
       "name": "@azure/arm-devcenter@1.1.0-beta.1"
     },
     {
@@ -250,7 +256,13 @@
       "name": "@azure/arm-deviceregistry@1.0.0-beta.2"
     },
     {
+      "name": "@azure/arm-deviceupdate@1.2.1-alpha.20250212.1"
+    },
+    {
       "name": "@azure/arm-devopsinfrastructure@1.0.0-beta.1"
+    },
+    {
+      "name": "@azure/arm-devtestlabs@4.1.1-alpha.20250212.1"
     },
     {
       "name": "@azure/arm-dns@5.2.0-beta.1"
@@ -283,6 +295,9 @@
       "name": "@azure/arm-fabric@1.0.0-beta.1"
     },
     {
+      "name": "@azure/arm-graphservices@1.0.1-alpha.20250212.1"
+    },
+    {
       "name": "@azure/arm-guestconfiguration@1.0.0-beta.1"
     },
     {
@@ -304,6 +319,9 @@
       "name": "@azure/arm-hybridcompute@4.1.0-beta.1"
     },
     {
+      "name": "@azure/arm-hybridconnectivity@1.0.1-alpha.20250212.1"
+    },
+    {
       "name": "@azure/arm-hybridcontainerservice@1.0.0-beta.3"
     },
     {
@@ -317,6 +335,12 @@
     },
     {
       "name": "@azure/arm-iotfirmwaredefense@1.0.0-beta.1"
+    },
+    {
+      "name": "@azure/arm-iothub@6.3.1-alpha.20250212.1"
+    },
+    {
+      "name": "@azure/arm-iothub-profile-2020-09-01-hybrid@2.1.1-alpha.20250212.1"
     },
     {
       "name": "@azure/arm-iotoperations@1.0.0-beta.1"
@@ -400,7 +424,7 @@
       "name": "@azure/arm-quantum@1.0.0-beta.2"
     },
     {
-      "name": "@azure/arm-quota@1.1.0-beta.2"
+      "name": "@azure/arm-quota@1.1.0-alpha.20250212.1"
     },
     {
       "name": "@azure/arm-recoveryservicesdatareplication@1.0.0-beta.1"
@@ -448,7 +472,7 @@
       "name": "@azure/arm-servicefabricmesh@3.0.0-beta.4"
     },
     {
-      "name": "@azure/arm-servicelinker@2.2.0-beta.1"
+      "name": "@azure/arm-servicelinker@2.2.0-alpha.20250212.1"
     },
     {
       "name": "@azure/arm-servicemap@3.0.0-beta.1"
@@ -469,7 +493,7 @@
       "name": "@azure/arm-sql@11.0.0-beta.2"
     },
     {
-      "name": "@azure/arm-sqlvirtualmachine@5.0.0-beta.8"
+      "name": "@azure/arm-sqlvirtualmachine@5.0.0-alpha.20250212.1"
     },
     {
       "name": "@azure/arm-standbypool@1.0.0-beta.1"
@@ -478,7 +502,7 @@
       "name": "@azure/arm-storageactions@1.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-storagecache@7.1.0-beta.1"
+      "name": "@azure/arm-storagecache@8.0.1-alpha.20250212.1"
     },
     {
       "name": "@azure/arm-storagemover@2.0.0-beta.1"
@@ -556,13 +580,16 @@
       "name": "@azure/event-hubs@6.0.0-beta.1"
     },
     {
-      "name": "@azure/eventgrid@5.1.0-beta.1"
+      "name": "@azure/eventgrid@5.10.0-alpha.20250212.1"
     },
     {
-      "name": "@azure/eventgrid-namespaces@1.0.0-beta.2"
+      "name": "@azure/eventgrid-namespaces@1.0.1-alpha.20250212.1"
     },
     {
       "name": "@azure/eventgrid-system-events@1.0.0-beta.5"
+    },
+    {
+      "name": "@azure/eventgrid-systemevents@1.0.0-alpha.20250212.1"
     },
     {
       "name": "@azure/eventhubs-checkpointstore-blob@2.0.0-beta.1"
@@ -571,10 +598,19 @@
       "name": "@azure/functions-authentication-events@1.0.0-beta.2"
     },
     {
-      "name": "@azure/identity@4.5.0-beta.3"
+      "name": "@azure/identity@4.7.0-alpha.20250212.1"
+    },
+    {
+      "name": "@azure/identity-broker@1.1.1-alpha.20250212.1"
+    },
+    {
+      "name": "@azure/identity-cache-persistence@1.1.2-alpha.20250212.1"
     },
     {
       "name": "@azure/iot-device-update@1.0.0-beta.1"
+    },
+    {
+      "name": "@azure/iot-modelsrepository@1.0.0-beta.3"
     },
     {
       "name": "@azure/keyvault-admin@4.5.0-beta.1"
@@ -631,7 +667,7 @@
       "name": "@azure/search-documents@12.2.0-beta.2"
     },
     {
-      "name": "@azure/service-bus@7.10.0-beta.1"
+      "name": "@azure/service-bus@7.10.0-alpha.20250212.2"
     },
     {
       "name": "@azure/storage-blob@12.26.0-beta.1"
@@ -674,6 +710,9 @@
     },
     {
       "name": "@azure/web-pubsub-client-protobuf@1.0.0-beta.1"
+    },
+    {
+      "name": "@typespec/ts-http-runtime@0.1.0"
     }
   ],
   "source_repos": [],
