@@ -1,0 +1,16 @@
+### YamlMime:TSEnum
+name: KnownAppServicePlanAction
+uid: '@azure/eventgrid-systemevents.KnownAppServicePlanAction'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [AppServicePlanAction](xref:@azure/eventgrid-systemevents.AppServicePlanAction)
+  that the service accepts.
+fullName: KnownAppServicePlanAction
+remarks: ''
+isDeprecated: false
+fields:
+  - name: Updated
+    uid: '@azure/eventgrid-systemevents.KnownAppServicePlanAction.Updated'
+    package: '@azure/eventgrid-systemevents'
+    summary: Updated

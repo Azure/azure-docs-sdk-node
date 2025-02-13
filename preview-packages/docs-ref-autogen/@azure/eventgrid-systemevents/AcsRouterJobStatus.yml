@@ -1,0 +1,40 @@
+### YamlMime:TSTypeAlias
+name: AcsRouterJobStatus
+uid: '@azure/eventgrid-systemevents.AcsRouterJobStatus'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Acs Router Job Status
+
+  [KnownAcsRouterJobStatus](xref:@azure/eventgrid-systemevents.KnownAcsRouterJobStatus)
+  can be used interchangeably with AcsRouterJobStatus,
+   this enum contains the known values that the service supports.
+  ### Known values supported by the service
+
+  **PendingClassification**
+
+  **Queued**
+
+  **Assigned**
+
+  **Completed**
+
+  **Closed**
+
+  **Cancelled**
+
+  **ClassificationFailed**
+
+  **Created**
+
+  **PendingSchedule**
+
+  **Scheduled**
+
+  **ScheduleFailed**
+
+  **WaitingForActivation**
+fullName: AcsRouterJobStatus
+remarks: ''
+isDeprecated: false
+syntax: |
+  type AcsRouterJobStatus = string

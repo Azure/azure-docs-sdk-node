@@ -1572,7 +1572,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Network Analytics
+      - name: Resource Management - Network Analytics (deprecated)
         href: ~/docs-ref-services/latest/arm-networkanalytics-readme.md
         children:
         - '@azure/arm-networkanalytics'

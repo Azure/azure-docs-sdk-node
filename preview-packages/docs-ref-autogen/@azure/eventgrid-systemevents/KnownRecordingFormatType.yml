@@ -1,0 +1,24 @@
+### YamlMime:TSEnum
+name: KnownRecordingFormatType
+uid: '@azure/eventgrid-systemevents.KnownRecordingFormatType'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [RecordingFormatType](xref:@azure/eventgrid-systemevents.RecordingFormatType)
+  that the service accepts.
+fullName: KnownRecordingFormatType
+remarks: ''
+isDeprecated: false
+fields:
+  - name: Mp3
+    uid: '@azure/eventgrid-systemevents.KnownRecordingFormatType.Mp3'
+    package: '@azure/eventgrid-systemevents'
+    summary: Mp3
+  - name: Mp4
+    uid: '@azure/eventgrid-systemevents.KnownRecordingFormatType.Mp4'
+    package: '@azure/eventgrid-systemevents'
+    summary: Mp4
+  - name: Wav
+    uid: '@azure/eventgrid-systemevents.KnownRecordingFormatType.Wav'
+    package: '@azure/eventgrid-systemevents'
+    summary: Wav

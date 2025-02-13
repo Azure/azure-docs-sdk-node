@@ -1,0 +1,38 @@
+### YamlMime:TSEnum
+name: KnownAcsEmailDeliveryReportStatus
+uid: '@azure/eventgrid-systemevents.KnownAcsEmailDeliveryReportStatus'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [AcsEmailDeliveryReportStatus](xref:@azure/eventgrid-systemevents.AcsEmailDeliveryReportStatus)
+  that the service accepts.
+fullName: KnownAcsEmailDeliveryReportStatus
+remarks: ''
+isDeprecated: false
+fields:
+  - name: Bounced
+    uid: '@azure/eventgrid-systemevents.KnownAcsEmailDeliveryReportStatus.Bounced'
+    package: '@azure/eventgrid-systemevents'
+    summary: Bounced
+  - name: Delivered
+    uid: '@azure/eventgrid-systemevents.KnownAcsEmailDeliveryReportStatus.Delivered'
+    package: '@azure/eventgrid-systemevents'
+    summary: Delivered
+  - name: Failed
+    uid: '@azure/eventgrid-systemevents.KnownAcsEmailDeliveryReportStatus.Failed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Failed
+  - name: FilteredSpam
+    uid: >-
+      @azure/eventgrid-systemevents.KnownAcsEmailDeliveryReportStatus.FilteredSpam
+    package: '@azure/eventgrid-systemevents'
+    summary: FilteredSpam
+  - name: Quarantined
+    uid: >-
+      @azure/eventgrid-systemevents.KnownAcsEmailDeliveryReportStatus.Quarantined
+    package: '@azure/eventgrid-systemevents'
+    summary: Quarantined
+  - name: Suppressed
+    uid: '@azure/eventgrid-systemevents.KnownAcsEmailDeliveryReportStatus.Suppressed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Suppressed
