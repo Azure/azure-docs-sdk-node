@@ -11,5 +11,14 @@
   "IsNewSdk": true,
   "ArtifactName": "azure-arm-machinelearning",
   "ReleaseStatus": "2024-08-15",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azurearmmachinelearning",
+    "name": "azure-arm-machinelearning"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
   "DependentPackages": null
 }
