@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azurearmiotoperations",
-    "name": "azure-arm-iotoperations"
+    "name": "azure-arm-iotoperations",
+    "safeName": "azurearmiotoperations"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": []
 }
