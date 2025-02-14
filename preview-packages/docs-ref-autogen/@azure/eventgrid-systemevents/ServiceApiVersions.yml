@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ServiceApiVersions
+uid: '@azure/eventgrid-systemevents.ServiceApiVersions'
+package: '@azure/eventgrid-systemevents'
+summary: Type of ServiceApiVersions
+fullName: ServiceApiVersions
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ServiceApiVersions = "2018-01-01" | "2024-01-01"

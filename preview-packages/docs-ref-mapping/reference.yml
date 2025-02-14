@@ -20,6 +20,16 @@
       href: ~/docs-ref-services/preview/ai-inference-rest-readme.md
       children:
       - '@azure-rest/ai-inference'
+  - name: Analysis Services
+    href: ~/docs-ref-services/preview/analysis-services.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Analysis Services
+        href: ~/docs-ref-services/preview/arm-analysisservices-readme.md
+        children:
+        - '@azure/arm-analysisservices'
   - name: API Center
     href: ~/docs-ref-services/preview/api-center.md
     landingPageType: Service
@@ -510,6 +520,16 @@
         href: ~/docs-ref-services/preview/arm-deploymentmanager-readme.md
         children:
         - '@azure/arm-deploymentmanager'
+  - name: Desktop Virtualization
+    href: ~/docs-ref-services/preview/desktop-virtualization.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Desktop Virtualization
+        href: ~/docs-ref-services/preview/arm-desktopvirtualization-readme.md
+        children:
+        - '@azure/arm-desktopvirtualization'
   - name: Dev Center
     href: ~/docs-ref-services/preview/dev-center.md
     landingPageType: Service
@@ -554,6 +574,16 @@
         href: ~/docs-ref-services/preview/arm-devopsinfrastructure-readme.md
         children:
         - '@azure/arm-devopsinfrastructure'
+  - name: DevTest Labs
+    href: ~/docs-ref-services/preview/devtest-labs.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - DevTest Labs
+        href: ~/docs-ref-services/preview/arm-devtestlabs-readme.md
+        children:
+        - '@azure/arm-devtestlabs'
   - name: DNS
     href: ~/docs-ref-services/preview/dns.md
     landingPageType: Service
@@ -690,6 +720,16 @@
       href: ~/docs-ref-services/preview/functions-authentication-events-readme.md
       children:
       - '@azure/functions-authentication-events'
+  - name: Graph Services
+    href: ~/docs-ref-services/preview/graph-services.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Graph Services
+        href: ~/docs-ref-services/preview/arm-graphservices-readme.md
+        children:
+        - '@azure/arm-graphservices'
   - name: Guest Configuration
     href: ~/docs-ref-services/preview/guest-configuration.md
     landingPageType: Service
@@ -768,6 +808,16 @@
         href: ~/docs-ref-services/preview/arm-hybridcompute-readme.md
         children:
         - '@azure/arm-hybridcompute'
+  - name: Hybrid Connectivity
+    href: ~/docs-ref-services/preview/hybrid-connectivity.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Hybrid Connectivity
+        href: ~/docs-ref-services/preview/arm-hybridconnectivity-readme.md
+        children:
+        - '@azure/arm-hybridconnectivity'
   - name: Hybrid Container Service
     href: ~/docs-ref-services/preview/hybrid-container-service.md
     landingPageType: Service
@@ -796,6 +846,19 @@
       href: ~/docs-ref-services/preview/identity-readme.md
       children:
       - '@azure/identity'
+    - name: Identity Broker
+      href: ~/docs-ref-services/preview/identity-broker-readme.md
+      children:
+      - '@azure/identity-broker'
+    - name: Token Cache Persistence Plugin
+      href: ~/docs-ref-services/preview/identity-cache-persistence-readme.md
+      children:
+      - '@azure/identity-cache-persistence'
+    - name: Plugins
+      items:
+      - name: Token Cache Persistence
+        href: ~/docs-ref-services/preview/identity-cache-persistence-readme.md
+        landingPageType: Service
   - name: Informatica Data Management
     href: ~/docs-ref-services/preview/informatica-data-management.md
     landingPageType: Service
@@ -828,6 +891,10 @@
         href: ~/docs-ref-services/preview/arm-deviceprovisioningservices-readme.md
         children:
         - '@azure/arm-deviceprovisioningservices'
+      - name: Resource Management - Device Update
+        href: ~/docs-ref-services/preview/arm-deviceupdate-readme.md
+        children:
+        - '@azure/arm-deviceupdate'
       - name: Resource Management - IoT Central
         href: ~/docs-ref-services/preview/arm-iotcentral-readme.md
         children:
@@ -836,6 +903,10 @@
         href: ~/docs-ref-services/preview/arm-iotfirmwaredefense-readme.md
         children:
         - '@azure/arm-iotfirmwaredefense'
+      - name: Resource Management - IoT Hub
+        href: ~/docs-ref-services/preview/arm-iothub-readme.md
+        children:
+        - '@azure/arm-iothub'
       - name: Resource Management - Time Series Insights
         href: ~/docs-ref-services/preview/arm-timeseriesinsights-readme.md
         children:
@@ -1042,10 +1113,10 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Network Analytics
-        href: ~/docs-ref-services/preview/arm-networkanalytics-readme.md
+      - name: Resource Management - Network Analytics (deprecated)
         children:
         - '@azure/arm-networkanalytics'
+        landingPageType: Service
   - name: Nginx
     href: ~/docs-ref-services/preview/nginx.md
     landingPageType: Service
@@ -1156,7 +1227,7 @@
         href: ~/docs-ref-services/preview/arm-portal-readme.md
         children:
         - '@azure/arm-portal'
-  - name: PostgreSQL
+  - name: Postgresql
     href: ~/docs-ref-services/preview/postgresql.md
     landingPageType: Service
     items:

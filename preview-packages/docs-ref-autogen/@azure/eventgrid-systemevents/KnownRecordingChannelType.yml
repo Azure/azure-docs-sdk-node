@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: KnownRecordingChannelType
+uid: '@azure/eventgrid-systemevents.KnownRecordingChannelType'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [RecordingChannelType](xref:@azure/eventgrid-systemevents.RecordingChannelType)
+  that the service accepts.
+fullName: KnownRecordingChannelType
+remarks: ''
+isDeprecated: false
+fields:
+  - name: Mixed
+    uid: '@azure/eventgrid-systemevents.KnownRecordingChannelType.Mixed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Mixed
+  - name: Unmixed
+    uid: '@azure/eventgrid-systemevents.KnownRecordingChannelType.Unmixed'
+    package: '@azure/eventgrid-systemevents'
+    summary: Unmixed

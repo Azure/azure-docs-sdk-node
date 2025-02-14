@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: KnownAcsUserEngagement
+uid: '@azure/eventgrid-systemevents.KnownAcsUserEngagement'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [AcsUserEngagement](xref:@azure/eventgrid-systemevents.AcsUserEngagement) that
+  the service accepts.
+fullName: KnownAcsUserEngagement
+remarks: ''
+isDeprecated: false
+fields:
+  - name: click
+    uid: '@azure/eventgrid-systemevents.KnownAcsUserEngagement.click'
+    package: '@azure/eventgrid-systemevents'
+    summary: click
+  - name: view
+    uid: '@azure/eventgrid-systemevents.KnownAcsUserEngagement.view'
+    package: '@azure/eventgrid-systemevents'
+    summary: view

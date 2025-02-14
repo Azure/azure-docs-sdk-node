@@ -1,0 +1,32 @@
+### YamlMime:TSEnum
+name: KnownStorageBlobAccessTier
+uid: '@azure/eventgrid-systemevents.KnownStorageBlobAccessTier'
+package: '@azure/eventgrid-systemevents'
+summary: >-
+  Known values of
+  [StorageBlobAccessTier](xref:@azure/eventgrid-systemevents.StorageBlobAccessTier)
+  that the service accepts.
+fullName: KnownStorageBlobAccessTier
+remarks: ''
+isDeprecated: false
+fields:
+  - name: Archive
+    uid: '@azure/eventgrid-systemevents.KnownStorageBlobAccessTier.Archive'
+    package: '@azure/eventgrid-systemevents'
+    summary: Archive
+  - name: Cold
+    uid: '@azure/eventgrid-systemevents.KnownStorageBlobAccessTier.Cold'
+    package: '@azure/eventgrid-systemevents'
+    summary: Cold
+  - name: Cool
+    uid: '@azure/eventgrid-systemevents.KnownStorageBlobAccessTier.Cool'
+    package: '@azure/eventgrid-systemevents'
+    summary: Cool
+  - name: Default
+    uid: '@azure/eventgrid-systemevents.KnownStorageBlobAccessTier.Default'
+    package: '@azure/eventgrid-systemevents'
+    summary: Default
+  - name: Hot
+    uid: '@azure/eventgrid-systemevents.KnownStorageBlobAccessTier.Hot'
+    package: '@azure/eventgrid-systemevents'
+    summary: Hot
