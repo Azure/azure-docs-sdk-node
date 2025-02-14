@@ -14,8 +14,11 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azurearmdatafactory",
-    "name": "azure-arm-datafactory"
+    "name": "azure-arm-datafactory",
+    "safeName": "azurearmdatafactory"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
   },
   "CIMatrixConfigs": [],
   "DependentPackages": null
