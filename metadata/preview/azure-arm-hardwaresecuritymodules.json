@@ -17,5 +17,8 @@
     "name": "azure-arm-hardwaresecuritymodules",
     "safeName": "azurearmhardwaresecuritymodules"
   },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
   "CIMatrixConfigs": []
 }
